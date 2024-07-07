@@ -1,0 +1,277 @@
+body {
+    background-color: rgba(178, 152, 200, 1);
+  }
+  .navIteam a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-inline: 20px;
+    }
+
+  .navBar{
+    display: flex;
+    background-image: url("../images18/clouds.png");
+    background-repeat: none;
+    background-position: center;
+    align-items: flex-start;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .left{
+    width: 50%;
+    justify-content: left;
+    padding-left: 40px;
+  }
+  
+  .right{
+    width: 50%;
+    justify-content: right;
+    padding-right: 40px;
+  }
+  
+  .left, .right, h1 {
+    height: 200px;
+    display: flex;
+    align-items: baseline;
+  }
+
+  h1 {
+    font-family: 'Happy Monkey'; 
+    font-size: 40px;
+    color:rgba(255, 206, 227, 1);
+    font-weight: 100;
+    margin-top: 11px;
+  }
+  
+  .navIteam{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-inline: 20px;
+  }
+  
+  #navbutton{
+    background-color: rgba(5, 2, 146, 1);
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    font-size: 20px;
+    border-radius: 30px;
+
+  }
+  
+  .cardContainer{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+  }
+
+  .card{
+    display: flex;
+    flex-direction: row;
+    border-radius: 90px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+
+  .child1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-left: 40px;
+  }
+
+  img{
+    width: auto;
+    height: auto;
+  }
+
+  .child2 {
+    width: 50%;
+    float: left;
+    padding-left: 50px;
+    padding-right: 40px;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  p {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 100;
+    line-height: 35px;
+    text-align: left;
+  }
+
+  h3 {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 100;
+  }
+.green{
+    background-color: rgba(66, 101, 87, 1);
+    color: white;
+}
+
+.cream {
+    background-color: rgba(145, 123, 122, 1);
+    color: black;
+}
+
+.purple {
+    background-color: rgba(80, 59, 99, 1);
+    color: white;
+}
+
+  .footer{
+    padding-top: 100px;
+    text-align: center ;
+    display: block;
+  }
+  .connect{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 100;
+    line-height: 40px;
+  }
+  .center{
+    display: block;
+    text-align: center;
+  }
+  .copyright{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 100;
+    line-height: 15px;
+    padding-bottom: 10px;
+  }
+  h6{
+    text-align: center;
+    font-family: 'Happy Monkey'; 
+    font-size: 20px;
+  }
+.desktopHidden{
+  display: none;
+}
+.desktopHidden-image{
+  display: none;
+}
+
+  @media only screen and (max-width: 600px){
+   
+    body{
+      background-color: rgba(222, 217, 255, 1);
+    }
+    .mobile-hidden{
+      display: none;
+    }
+    
+    .desktopHidden{
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .navBar{
+      display: flex;
+      flex-direction: row;
+      background-image: none;
+      background-color: rgba(222, 217, 255, 1);
+      padding-top: 20px;
+      background-position: none;
+      width: 100%;
+      position: fixed;
+    
+    }
+
+    .hamburger{
+      width: 24px;
+      height: 20px;
+    }
+    .mobilelogo{
+      width: 62px;
+      height: 89px;
+    }
+    .desktopHidden-image{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      height: auto;
+      justify-content: center;
+
+    }
+  
+    .cardContainer{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 100px;
+    }
+  
+    .card{
+      display: flex;
+      flex-direction: column;
+      border-radius: 30px;
+      padding: 5px;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    img{
+      width: auto;
+      height: auto;
+    }
+  
+    .child2 {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    h2 {
+      font-size: 30px;
+      font-family: sans-serif;
+      font-weight: 400;
+      text-align: center;
+    }
+  
+    p {
+      font-size: 20px;
+      font-family: sans-serif;
+      font-weight: 100;
+      line-height: 30px;
+      text-align: left;
+    }
+
+  }
+
