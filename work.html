@@ -4,6 +4,7 @@
             <title>Rosemary Arrizon's Portfolio</title>
             <link rel="stylesheet" href="CSS/work.css">
             <link href='https://fonts.googleapis.com/css?family=Happy Monkey' rel='stylesheet'>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         </head>
         <body>
             <header class="navigation">
@@ -16,13 +17,22 @@
                         <h1> Rosemary Arrizon </h1>
                     </div>
                     <div class="right mobile-hidden"> 
-                        <p class="navIteam"><a href="index.html"> About Me </a></p> 
-                        <p class="navIteam"><a href="work.html">Work</a></p>
-                        <p class="navIteam" >Resume </p>
+                        <p><a href="index.html" class="navIteam hover"> About Me </a></p> 
+                        <p><a href="work.html" class="navIteam hover"> Work </a></p>
+                        <p class="navIteam"> Resume </p>
                         <button id=navbutton class="navIteam"> Get In Touch </button>
                     </div>   
                 </div>
             </header>
+            <div class="dropdown hidden">
+                <ul class="phoneNav">
+                    <li>Home</li>
+                    <li>About Me</li>
+                    <li>Work</li>
+                    <li>Resume</li>
+                    <button id="mobileButton">Get In Touch</button>
+                </ul>
+            </div>
             <section class="cardContainer">
                 <div class="card green">
                     <div class="child1">
@@ -68,4 +78,6 @@
                 </div>
             </footer>
         </body>
+        <script src="js/index.js"></script>
+        
     </html>

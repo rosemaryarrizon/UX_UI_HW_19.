@@ -1,13 +1,14 @@
 body {
     background-color: rgba(178, 152, 200, 1);
   }
-  .navIteam a {
+  .navIteam {
     text-decoration: none;
     font-family: sans-serif;
     font-size: 20px;
     color: white;
     padding-inline: 20px;
     }
+
 
   .navBar{
     display: flex;
@@ -54,7 +55,43 @@ body {
     color: white;
     padding-inline: 20px;
   }
-  
+  /*span{
+    color: rgba(3, 1, 88, 1);
+  }*/
+
+  /*mobile dropdown style*/
+  .dropdown{
+    position: fixed;
+    top: 80px;
+    left: 10px;
+    z-index: 1;
+  }
+  li{
+    list-style-type: none;
+  } 
+  .phoneNav{
+    background-color: white;
+    color: rgba(5, 2, 146, 1);
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-inline: 20px;
+    line-height: 50px;
+    border-radius: 20px;
+    width: 120px;
+  }
+
+  .hidden{
+    opacity: 0;
+  }
+
+  #mobileButton{
+    background-color: rgba(5, 2, 146, 1);
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 30px;
+  }
+
   #navbutton{
     background-color: rgba(5, 2, 146, 1);
     border: none;
@@ -62,7 +99,6 @@ body {
     padding: 5px 20px;
     font-size: 20px;
     border-radius: 30px;
-
   }
   
   .cardContainer{

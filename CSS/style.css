@@ -13,7 +13,7 @@ body {
     position: fixed;
     width: 100%;
   }
-  .navIteam a {
+  .navIteam {
     text-decoration: none;
     font-family: sans-serif;
     font-size: 20px;
@@ -51,9 +51,13 @@ body {
     font-family: sans-serif;
     font-size: 20px;
     color: white;
+    font-weight: 100;
     padding-inline: 20px;
   }
-  
+  span{
+    color: rgba(3, 1, 88, 1);
+  }
+
   #navbutton{
     background-color: rgba(5, 2, 146, 1);
     border: none;
