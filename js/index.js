@@ -17,6 +17,9 @@ $(document).ready(function(){
     });
 });
 
+let changeImage = function(image) {
+        image.classlist.toggle('fa-times')
+}
 
 /*
 $(".navIteam") .on("mouseenter", function(){

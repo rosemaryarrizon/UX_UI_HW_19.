@@ -73,11 +73,15 @@ body {
     background-color: white;
     color: rgba(5, 2, 146, 1);
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 400;
     padding-inline: 20px;
-    line-height: 50px;
+    padding-top: 30px;
+    padding-left: 40px;
+    line-height: 60px;
     border-radius: 20px;
-    width: 120px;
+    width: 170px;
+    height: 330px;
   }
 
   .hidden{
@@ -90,6 +94,8 @@ body {
     color: white;
     padding: 5px 20px;
     border-radius: 30px;
+    font-family: sans-serif;
+    font-size: 20px;
   }
 
   #navbutton{
@@ -108,6 +114,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-top: 200px;
+  
   }
 
   .card{
@@ -118,6 +125,7 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     align-items: center;
+    box-shadow: 15px 20px 5px rgba(5, 5, 5, 0.463);
   }
 
   .child1 {
@@ -277,6 +285,7 @@ body {
       margin-bottom: 5px;
       align-items: center;
       justify-content: center;
+      box-shadow: 8px 8px 5px rgba(5, 5, 5, 0.463);
     }
   
     img{
